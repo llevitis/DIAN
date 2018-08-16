@@ -1,0 +1,12 @@
+{
+  "destination": "~/DIAN/Nifti/",
+  "project": "DIANDF11",
+  "server": "https://cnda.wustl.edu",
+  "scan_dict": {
+              "resting state fMRI": "func-bold_task-rest",
+              "MPRAGE GRAPPA2": "anat-T1w",
+              "Axial DTI": "dwi",
+              "Axial T2-FLAIR": "anat-FLAIR",
+              "Axial T2 Star": "anat-T2star"
+              }
+}
