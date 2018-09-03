@@ -1,5 +1,5 @@
 {
-  "destination": "~/DIAN/Nifti/",
+  "destination": "/out",
   "project": "DIANDF11",
   "server": "https://cnda.wustl.edu",
   "scan_dict": {
