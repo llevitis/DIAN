@@ -8,10 +8,10 @@ addpath('testing_tmp');
 % Add also 'PairWiseDistanceMetrics' toolbox <------------------------- !!!
 
 % Experiment: Predict amyloid beta deposition values for carriers in DIAN dataset 
-esm_input_file = '/home/users/llevitis/code/DIAN/DIAN/testing_tmp/esm_dian_2comp_brainstem_ages.mat'; 
+esm_input_file = '~/projects/def-aevans/llevitis/DIAN/DIAN/testing_tmp/esm_dian_2comp_brainstem_ages_noncarriers.mat'; 
 [filepath,name,ext] = fileparts(esm_input_file);
 roidata = load(esm_input_file); 
-output_dir = ['/home/users/llevitis/code/DIAN/DIAN/results']; % output directory <-------------------------------- !!!
+output_dir = ['~/projects/def-aevans/llevitis/DIAN/DIAN/results']; % output directory <-------------------------------- !!!
 %output_dir = ['/Users/liza/data/GreyMatterESM/results/']; 
 %% Loading data  ---------------------------------------------------------%
 N_tau_possibilities = 1; % number of different Tau measurements <------ !!!
