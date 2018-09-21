@@ -7,6 +7,8 @@
               "MPRAGE GRAPPA2": "anat-T1w",
               "Axial DTI": "dwi",
               "Axial T2-FLAIR": "anat-FLAIR",
-              "Axial T2 Star": "anat-T2star"
+              "Axial T2 Star": "anat-T2star", 
+              "DIAN PIB 128mtx (AC)": "task-rest_acq-pib_pet", 
+              "DIAN PIB 336mtx (AC)": "task-rest_acq-pib_pet"
               }
 }
